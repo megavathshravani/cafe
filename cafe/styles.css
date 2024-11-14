@@ -1,0 +1,243 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.header {
+    background-color: #8B4513;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo h1 {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #FFD700; 
+}
+.carousel {
+    background-color: #FFF5E1; 
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+}
+
+.carousel-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.carousel-slide {
+    display: none;
+    position: relative;
+}
+
+.carousel-image {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.carousel-text {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.about {
+    padding: 60px 0;
+    background-color: #FFF5E1;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    color: #8B4513; /* Coffee Brown */
+    margin-bottom: 30px;
+    font-family: 'Georgia', serif;
+}
+
+.about-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.about-text {
+    max-width: 500px;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+.about .learn-more {
+    background-color: #D03934;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.about .learn-more:hover {
+    background-color: #CD5906; /* Darker orange for hover effect */
+}deeeee
+
+
+/* Menu Section */
+.menu {
+    padding: 50px 0;
+    background-color: #FFEBCD; /* Light coffee color */
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.menu-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.menu-item-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #8B4513; /* Coffee Brown */
+}
+
+.menu-item p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.price {
+    font-size: 18px;
+    color: #FFD700; /* Golden */
+    font-weight: bold;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #8B4513; /* Coffee Brown */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-content p:first-child {
+    font-weight: bold;
+}
+.learn-more{
+    background-color: orange;
+    color: white;
+    border:0px;
+    border-radius: 8px;
+    height: 50px;
+    width: 150px;
+}
+.learn-more {
+background-color:#8B4513;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    background-color: #cd5906;
+}
+
+.more-info {
+    color: #8B4513;
+    padding: 10px;
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+    font-style: italic;
+    font-display:bold;
+}
